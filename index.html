@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dream Interiors · UPVC Modular Interiors in Chomu, Jaipur</title>
+<meta name="description" content="Dream Interiors (Real Plast Jaipur): UPVC modular kitchens, wardrobes, TV panels, mandir units, bedroom and office interiors. Showroom opposite Le Grand Hotel, Jaipur Road, Chomu.">
+<meta property="og:title" content="Dream Interiors · New Way To Design Your Spaces">
+<meta property="og:description" content="UPVC modular kitchens, wardrobes, TV panels and mandir units. Chomu, Jaipur.">
+<meta property="og:image" content="https://webforyou-studio.netlify.app/dream-interiors/og.jpg">
+<meta name="theme-color" content="#0d0c0b">
+<link rel="preload" as="image" href="tv-fluted.webp"><link rel="preload" as="image" href="bedroom-led.webp">
+<style>
+@font-face{font-family:'Corm';font-weight:400;src:url(cormorant-garamond-latin-400-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Corm';font-weight:500;src:url(cormorant-garamond-latin-500-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Corm';font-weight:600;src:url(cormorant-garamond-latin-600-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Corm';font-weight:500;font-style:italic;src:url(cormorant-garamond-latin-500-italic.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Man';font-weight:400;src:url(manrope-latin-400-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Man';font-weight:500;src:url(manrope-latin-500-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Man';font-weight:600;src:url(manrope-latin-600-normal.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Man';font-weight:700;src:url(manrope-latin-700-normal.woff2) format('woff2');font-display:swap}
+:root{--bg:#0d0c0b;--bg2:#161412;--card:#1c1916;--ink:#f3ece3;--mut:#a89c8e;--line:rgba(243,236,227,.12);--amb:#e9a35b;--amb2:#ffcf8f;--ease:cubic-bezier(.2,.7,.1,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 'Man',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1240px,100% - 40px);margin:0 auto}
+.eyebrow{font:600 12px 'Man';letter-spacing:.32em;text-transform:uppercase;color:var(--amb)}
+h2{font:500 clamp(40px,6vw,76px)/1 'Corm',serif;letter-spacing:-.01em}
+h2 i{font-style:italic;color:var(--amb2)}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:15px 26px;font:700 14px 'Man';letter-spacing:.04em;transition:transform .3s var(--ease),background .3s,color .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:linear-gradient(135deg,#f5bd7a,#d98b3f);color:#1a120a;box-shadow:0 14px 40px -14px rgba(233,163,91,.7)}
+.btn.ghost{border:1px solid rgba(255,255,255,.35);color:#fff;backdrop-filter:blur(8px);background:rgba(255,255,255,.06)}
+.btn.ghost:hover{background:#fff;color:#111}
+.btn svg{width:18px;height:18px}
+
+#loader{position:fixed;inset:0;z-index:100;background:var(--bg);display:grid;place-items:center;transition:opacity .8s .2s,visibility .8s .2s}
+#loader.done{opacity:0;visibility:hidden}
+#loader .lm{display:flex;align-items:center;gap:14px;font:600 20px 'Man';letter-spacing:.18em}
+#loader .bar{width:180px;height:1px;background:var(--line);margin:22px auto 0;overflow:hidden}
+#loader .bar i{display:block;height:100%;width:100%;background:var(--amb);transform-origin:left;animation:load 1.3s var(--ease) forwards;transform:scaleX(0)}
+@keyframes load{to{transform:scaleX(1)}}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s,padding .4s,border-color .4s;padding:22px 0;border-bottom:1px solid transparent}
+nav.s{background:rgba(13,12,11,.82);backdrop-filter:blur(14px);padding:12px 0;border-color:var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px}
+.mk{width:40px;height:40px;border:1.5px solid var(--ink);border-radius:6px;display:grid;place-items:center;font:600 22px 'Corm';flex:0 0 40px}
+.logo b{display:block;font:700 15px 'Man';letter-spacing:.2em;white-space:nowrap}
+.logo b em{font-style:normal;font-weight:400;color:var(--mut)}
+.logo small{display:block;font-size:10px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase;margin-top:1px}
+.links{display:flex;gap:30px;font-size:14px;font-weight:500;color:#d8cfc4}
+.links a{position:relative}
+.links a:after{content:'';position:absolute;left:0;right:0;bottom:-5px;height:1px;background:var(--amb);transform:scaleX(0);transition:transform .35s var(--ease)}
+.links a:hover:after{transform:scaleX(1)}
+nav .btn{padding:11px 20px}
+@media(max-width:900px){.links{display:none}nav .btn .t{display:none}nav .btn{padding:11px}}
+
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.fade{opacity:0;transform:translateY(24px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.ready .fade{opacity:1;transform:none}
+.ready .fade.d1{transition-delay:.5s}.ready .fade.d2{transition-delay:.65s}
+.walk{position:relative;height:320vh}
+.walk .stage{position:sticky;top:0;height:100svh;min-height:600px;overflow:hidden;background:#0b0a09}
+.walk .rooms img{position:absolute;left:-6%;top:-6%;width:112%;height:112%;object-fit:cover;opacity:0;will-change:transform,opacity,filter;filter:contrast(1.05) saturate(1.02) brightness(.94)}
+.walk .rooms.r3{position:absolute;inset:0;overflow:hidden;perspective-origin:50% 50%;cursor:grab;touch-action:pan-y}
+.walk .stage.grab .rooms{cursor:grabbing}
+.walk .ring{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d;will-change:transform}
+.walk .pn{position:absolute;overflow:hidden;background:#141210;backface-visibility:hidden;box-shadow:inset 0 0 0 4px #0b0a09}
+.walk .pn img{position:static;width:100%;height:100%;object-fit:cover;opacity:1;filter:contrast(1.05) saturate(1.03) brightness(.95);pointer-events:none;user-select:none}
+.walk .pn:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,10,9,.55),rgba(11,10,9,0) 18%,rgba(11,10,9,0) 82%,rgba(11,10,9,.55));pointer-events:none}
+.walk .dip{position:absolute;inset:0;background:#0b0a09;opacity:0;pointer-events:none}
+.walk .bloom{position:absolute;inset:-20%;pointer-events:none;mix-blend-mode:screen;opacity:.5;background:radial-gradient(40% 30% at 60% 35%,rgba(255,170,90,.22),transparent 70%)}
+.walk .vig{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(11,10,9,.72) 0,rgba(11,10,9,.25) 45%,rgba(11,10,9,0) 70%),radial-gradient(ellipse at center,rgba(0,0,0,0) 45%,rgba(0,0,0,.55) 100%),linear-gradient(180deg,rgba(11,10,9,.6) 0,rgba(11,10,9,0) 20%,rgba(11,10,9,0) 45%,rgba(11,10,9,.9) 100%)}
+.walk .grain{position:absolute;inset:-50%;pointer-events:none;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");animation:grain 1.2s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}100%{transform:translate(0,0)}}
+.walk .frame{position:absolute;inset:0;pointer-events:none;--in:26px}
+.walk .frame i{position:absolute;background:rgba(255,255,255,.4)}
+.walk .frame .h{left:0;right:0;top:72px;height:1px}
+.walk .frame .l{top:0;bottom:0;left:var(--in);width:1px}.walk .frame .r{top:0;bottom:0;right:var(--in);width:1px}
+.walk .frame .b{left:0;right:0;bottom:52px;height:1px;background:rgba(255,255,255,.18)}
+.walk .copy{position:absolute;left:0;right:0;bottom:84px;z-index:3}
+.walk .copy .wrap{padding:0 30px}
+.walk .copy:before{content:'';position:absolute;left:-10%;right:-10%;bottom:-120px;height:calc(100% + 260px);background:radial-gradient(70% 70% at 25% 70%,rgba(11,10,9,.82),rgba(11,10,9,.45) 55%,transparent 80%);pointer-events:none}
+.walk .copy .wrap{position:relative}
+.walk h1,.walk .rt b{text-shadow:0 2px 30px rgba(0,0,0,.45)}
+.walk h1{font:500 clamp(52px,9vw,138px)/.92 'Corm',serif;letter-spacing:-.02em;max-width:12ch;margin-top:16px}
+.walk h1 i{font-style:italic;color:var(--amb2)}
+.walk h1 .ln{display:block;overflow:hidden;padding-bottom:.06em}
+.walk h1 .ln span{display:inline-block;transform:translateY(105%);transition:transform 1.2s var(--ease)}
+.ready .walk h1 .ln span{transform:none}
+.ready .walk h1 .ln:nth-child(2) span{transition-delay:.12s}
+.ready .walk h1 .ln:nth-child(3) span{transition-delay:.24s}
+.walk .sub{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:26px}
+.walk .sub p{max-width:440px;color:#e2d8cc;font-size:16.5px}
+.walk .rt{position:absolute;left:0;right:0;bottom:84px;z-index:3;opacity:0;pointer-events:none}
+.walk .rt .wrap{padding:0 30px}
+.walk .rt small{font:600 11px 'Man';letter-spacing:.32em;text-transform:uppercase;color:var(--amb)}
+.walk .rt b{display:block;font:500 clamp(46px,7vw,104px)/1 'Corm';margin-top:10px;transition:opacity .5s,transform .6s var(--ease)}
+.walk .rt b.sw{opacity:0;transform:translateY(18px)}
+.walk .bar{position:absolute;left:0;right:0;bottom:0;height:52px;z-index:4;display:flex;align-items:center;padding:0 48px;font:500 11px 'Man';letter-spacing:.12em;text-transform:uppercase;color:#efe6dc}
+.walk .bar .nm{display:flex;align-items:center;gap:10px;min-width:150px}
+.walk .bar .nm span{transition:opacity .4s}
+.walk .bar .chip{width:22px;height:14px;border:1px solid #efe6dc;border-radius:3px;display:grid;place-items:center}
+.walk .bar .chip:after{content:'';width:10px;height:5px;border-top:1px solid #efe6dc;border-bottom:1px solid #efe6dc}
+.walk .bar .pg{position:absolute;left:50%;transform:translateX(-50%);width:min(220px,30vw);height:1px;background:rgba(255,255,255,.22)}
+.walk .bar .pg i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--amb)}
+.walk .bar .rgt{margin-left:auto;display:flex;align-items:center;gap:14px}
+.walk .bar .wb{width:26px;height:26px;border:1px solid rgba(255,255,255,.5);border-radius:3px;display:grid;place-items:center;cursor:pointer;background:rgba(0,0,0,.2)}
+.walk .bar .wb svg{width:11px;height:11px;fill:none;stroke:#fff;stroke-width:1.5}
+.walk .bar .wb.ac{background:var(--amb);border-color:var(--amb)}.walk .bar .wb.ac svg{stroke:#1a120a}
+.walk .hs{position:absolute;z-index:3;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;opacity:0;transition:opacity .6s;box-shadow:0 0 0 6px rgba(255,255,255,.16),0 4px 18px rgba(0,0,0,.35);pointer-events:none}
+.walk .hs:before{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px solid rgba(255,255,255,.6);animation:ping 2s infinite}
+.walk .hs.on{opacity:1}
+.walk .hs.flip .tip{left:auto;right:42px}
+.walk .hs svg{width:14px;height:14px;stroke:#222;fill:none;stroke-width:1.6}
+.walk .hs .tip{position:absolute;left:42px;white-space:nowrap;font:500 11px 'Man';letter-spacing:.1em;background:rgba(15,13,12,.75);backdrop-filter:blur(6px);padding:7px 11px;border:1px solid rgba(255,255,255,.25);color:#f4efe8;text-transform:uppercase}
+.walk .hint{position:absolute;left:50%;bottom:66px;z-index:3;transform:translateX(-50%);font:500 10px 'Man';letter-spacing:.32em;text-transform:uppercase;color:#d8cdbf;display:flex;flex-direction:column;align-items:center;gap:8px;transition:opacity .8s}
+.walk .hint:after{content:'';width:1px;height:30px;background:linear-gradient(var(--amb),transparent);animation:drip 2s infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media(max-width:760px){.walk .frame{--in:12px}.walk .frame .h{top:64px}.walk .copy,.walk .rt{bottom:70px}.walk .copy .wrap,.walk .rt .wrap{padding:0 18px}.walk .bar{padding:0 24px}.walk .bar .nm{min-width:0}.walk .sub p{font-size:15px}.walk .hint{display:none}.walk .vig{background:radial-gradient(ellipse at center,rgba(0,0,0,0) 45%,rgba(0,0,0,.55) 100%),linear-gradient(180deg,rgba(11,10,9,.6) 0,rgba(11,10,9,0) 18%,rgba(11,10,9,.35) 45%,rgba(11,10,9,.95) 100%)}}
+
+.band{border-block:1px solid var(--line);overflow:hidden;padding:22px 0;background:var(--bg2)}
+.band .tr{display:flex;width:max-content;animation:mq 38s linear infinite}
+.band span{font:500 clamp(26px,3.4vw,40px) 'Corm';padding:0 30px;white-space:nowrap;display:flex;align-items:center;gap:60px}
+.band span:after{content:'✦';font-size:16px;color:var(--amb)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.clip{clip-path:inset(100% 0 0 0);transition:clip-path 1.4s var(--ease)}
+.clip.in{clip-path:inset(0 0 0 0)}
+.clip img{transform:scale(1.25);transition:transform 2s var(--ease)}
+.clip.in img{transform:scale(1)}
+
+section{padding:clamp(80px,12vw,150px) 0}
+
+.intro .g{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(30px,6vw,90px);align-items:center}
+.intro .pic{position:relative}
+.intro .pic .a{border-radius:4px;overflow:hidden;aspect-ratio:4/5}
+.intro .pic .a img{width:100%;height:100%;object-fit:cover}
+.intro .pic .b{position:absolute;right:-28px;bottom:-40px;width:44%;border-radius:4px;overflow:hidden;aspect-ratio:3/4;border:6px solid var(--bg);box-shadow:0 30px 60px -20px #000}
+.intro .pic .b img{width:100%;height:100%;object-fit:cover}
+.intro p.lead{font:400 clamp(22px,2.4vw,30px)/1.35 'Corm';color:#e8dfd4;margin:26px 0 22px}
+.intro p{color:var(--mut)}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:36px;border-radius:4px;overflow:hidden}
+.feat div{background:var(--bg);padding:20px}
+.feat b{display:block;font:600 15px 'Man';margin-bottom:3px}
+.feat span{font-size:13.5px;color:var(--mut)}
+@media(max-width:860px){.intro .g{grid-template-columns:1fr;gap:70px}.intro .pic{margin-right:24px}}
+
+.svc{background:var(--bg2)}
+.hd{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:56px}
+.hd p{max-width:380px;color:var(--mut)}
+.list{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:70px 1fr 1.1fr 50px;gap:24px;align-items:center;padding:28px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.row .n{font:500 15px 'Man';color:var(--amb)}
+.row h3{font:500 clamp(30px,3.6vw,48px)/1 'Corm';transition:transform .5s var(--ease),color .4s}
+.row p{color:var(--mut);font-size:15px}
+.row .ar{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:all .4s var(--ease)}
+.row:hover h3{transform:translateX(14px);color:var(--amb2)}
+.row:hover .ar{background:var(--amb);border-color:var(--amb);color:#111;transform:rotate(-45deg)}
+.peek{position:fixed;z-index:40;left:0;top:0;width:300px;aspect-ratio:4/5;pointer-events:none;border-radius:4px;overflow:hidden;opacity:0;transform:translate(-50%,-50%) scale(.85) rotate(-4deg);transition:opacity .35s,transform .5s var(--ease);box-shadow:0 30px 60px -10px #000}
+.peek.on{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(-2deg)}
+.peek img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:0;transition:opacity .3s}
+.peek img.on{opacity:1}
+.row .th{display:none}
+@media(max-width:800px){.row{grid-template-columns:86px 1fr;gap:6px 18px;padding:20px 0}.row .n,.row .ar{display:none}.row .th{display:block;grid-row:span 2;width:86px;height:100px;border-radius:4px;overflow:hidden}.row .th img{width:100%;height:100%;object-fit:cover}.peek{display:none}}
+
+.show{padding:0;position:relative}
+.show .pin{height:100vh;position:sticky;top:0;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+.show .ttl{position:absolute;top:clamp(80px,12vh,130px);left:0;right:0}
+.show .track{display:flex;gap:28px;padding-left:max(20px,calc((100vw - 1240px)/2));will-change:transform;margin-top:90px}
+.show .card{flex:0 0 auto;height:min(60vh,600px);position:relative;border-radius:4px;overflow:hidden}
+.show .card img{height:100%;width:auto;max-width:none;transition:transform 1.2s var(--ease)}
+.show .card:hover img{transform:scale(1.05)}
+.show .card .cap{position:absolute;left:0;right:0;bottom:0;padding:60px 22px 20px;background:linear-gradient(transparent,rgba(0,0,0,.75));display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+.show .card .cap b{font:500 28px/1 'Corm'}
+.show .card .cap span{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--amb2)}
+.show .prog{position:absolute;left:max(20px,calc((100vw - 1240px)/2));right:max(20px,calc((100vw - 1240px)/2));bottom:6vh;height:1px;background:var(--line)}
+.show .prog i{display:block;height:100%;background:var(--amb);transform-origin:left;transform:scaleX(0)}
+@media(max-width:800px){.show .card{height:52vh}.show .track{gap:16px}}
+
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{background:none;border:1px solid var(--line);color:var(--mut);font:600 13px 'Man';padding:10px 18px;border-radius:999px;cursor:pointer;transition:all .3s}
+.tabs button:hover{color:var(--ink);border-color:rgba(243,236,227,.4)}
+.tabs button.on{background:var(--ink);color:#111;border-color:var(--ink)}
+.grid{columns:3 300px;column-gap:18px}
+.grid figure{break-inside:avoid;margin-bottom:18px;position:relative;border-radius:4px;overflow:hidden;cursor:zoom-in}
+.grid figure.hide{display:none}
+.grid figure img{width:100%;transition:transform 1.2s var(--ease)}
+.grid figure:hover img{transform:scale(1.06)}
+.grid figcaption{position:absolute;left:14px;bottom:14px;font:600 11px 'Man';letter-spacing:.2em;text-transform:uppercase;background:rgba(13,12,11,.7);backdrop-filter:blur(6px);padding:8px 12px;border-radius:999px;opacity:0;transform:translateY(8px);transition:all .4s var(--ease)}
+.grid figure:hover figcaption{opacity:1;transform:none}
+@media(hover:none){.grid figcaption{opacity:1;transform:none}}
+@media(max-width:640px){.grid{columns:2;column-gap:10px}.grid figure{margin-bottom:10px}.grid figcaption{left:8px;bottom:8px;font-size:9px;letter-spacing:.12em;padding:6px 9px}}
+
+#lb{position:fixed;inset:0;z-index:90;background:rgba(8,7,6,.94);display:grid;place-items:center;opacity:0;visibility:hidden;transition:all .4s}
+#lb.on{opacity:1;visibility:visible}
+#lb img{max-width:92vw;max-height:84vh;border-radius:4px;transform:scale(.94);transition:transform .5s var(--ease)}
+#lb.on img{transform:none}
+#lb button{position:absolute;background:rgba(255,255,255,.08);border:1px solid var(--line);color:#fff;width:52px;height:52px;border-radius:50%;font-size:22px;cursor:pointer}
+#lb .x{top:20px;right:20px}#lb .p{left:16px;top:50%}#lb .nx{right:16px;top:50%}
+#lb .c{position:absolute;bottom:22px;left:0;right:0;text-align:center;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--mut)}
+
+.why{background:var(--bg2)}
+.why .g{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:56px}
+.why .c{border:1px solid var(--line);border-radius:4px;padding:30px 24px;transition:border-color .4s,transform .5s var(--ease),background .4s}
+.why .c:hover{border-color:rgba(233,163,91,.5);transform:translateY(-6px);background:rgba(233,163,91,.04)}
+.why .ic{width:48px;height:48px;border-radius:50%;background:rgba(233,163,91,.12);color:var(--amb);display:grid;place-items:center;margin-bottom:22px}
+.why .ic svg{width:22px;height:22px}
+.why h4{font:500 28px 'Corm';margin-bottom:8px}
+.why p{color:var(--mut);font-size:14.5px}
+@media(max-width:960px){.why .g{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.why .g{grid-template-columns:1fr}}
+
+.split{position:relative;height:90vh;min-height:560px;overflow:hidden;display:flex;align-items:center}
+.split .bgp{position:absolute;inset:-15% 0;background:url(bedroom-led.webp) 70% center/cover;will-change:transform}
+.split:before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(13,12,11,.92) 0,rgba(13,12,11,.55) 45%,rgba(13,12,11,.1) 100%)}
+.split .in{position:relative;z-index:2}
+.split .in>*{max-width:560px}
+.split p{color:#d9cfc3;margin:22px 0 32px;font-size:17px}
+@media(max-width:700px){.split:before{background:linear-gradient(180deg,rgba(13,12,11,.2),rgba(13,12,11,.9) 60%)}.split{align-items:flex-end;padding-bottom:60px}}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);margin-top:60px;counter-reset:s}
+.steps div{padding:0 26px 0 0;position:relative}
+.steps div:before{counter-increment:s;content:'0' counter(s);display:block;font:500 64px/1 'Corm';color:transparent;-webkit-text-stroke:1px var(--amb);margin-bottom:22px}
+.steps div:after{content:'';position:absolute;top:32px;left:90px;right:20px;height:1px;background:var(--line)}
+.steps div:last-child:after{display:none}
+.steps h4{font:600 18px 'Man';margin-bottom:8px}
+.steps p{color:var(--mut);font-size:14.5px}
+@media(max-width:860px){.steps{grid-template-columns:1fr 1fr;gap:40px 20px}.steps div:after{display:none}}
+
+.visit .g{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,70px);align-items:stretch}
+.vcard{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:clamp(24px,4vw,48px)}
+.vcard .it{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.vcard .it svg{flex:0 0 22px;width:22px;height:22px;color:var(--amb);margin-top:3px}
+.vcard small{display:block;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--mut);margin-bottom:4px}
+.vcard .it a{font:500 18px 'Man'}
+.vcard .it a:hover{color:var(--amb2)}
+.form{display:grid;gap:14px;margin-top:26px}
+.form input,.form select,.form textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:6px;padding:15px 16px;color:var(--ink);font:500 15px 'Man';outline:none;transition:border-color .3s}
+.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--amb)}
+.form select option{background:#1c1916}
+.form .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form .note{font-size:12.5px;color:var(--mut)}
+.mapimg{position:relative;border-radius:6px;overflow:hidden;min-height:440px}
+.mapimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mapimg:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(13,12,11,.92))}
+.mapimg .tag{position:absolute;left:24px;right:24px;bottom:24px;z-index:2}
+.mapimg .tag b{display:block;font:500 34px/1.05 'Corm';margin-bottom:16px}
+@media(max-width:860px){.visit .g{grid-template-columns:1fr}.form .two{grid-template-columns:1fr}}
+
+.cta{text-align:center;position:relative;overflow:hidden}
+.cta h2{font-size:clamp(48px,9vw,130px);max-width:14ch;margin:20px auto 40px}
+.cta .ctas{justify-content:center}
+.cta .glow{position:absolute;left:50%;top:50%;width:900px;height:500px;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(233,163,91,.18),transparent);pointer-events:none}
+
+footer{border-top:1px solid var(--line);padding:46px 0 90px;color:var(--mut);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+footer .so{display:flex;gap:10px}
+footer .so a{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:all .3s}
+footer .so a:hover{background:var(--amb);color:#111;border-color:var(--amb)}
+footer .so svg{width:18px;height:18px}
+footer .pv{width:100%;padding-top:20px;border-top:1px solid var(--line);font-size:12px;opacity:.75}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:45;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(37,211,102,.6);transform:scale(0);transition:transform .5s var(--ease)}
+.fab.on{transform:scale(1)}
+.fab svg{width:28px;height:28px}
+.fab:before{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ping 2.2s infinite}
+@keyframes ping{to{transform:scale(1.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.fade{opacity:1;transform:none}.clip{clip-path:none}.walk h1 .ln span{transform:none}}
+</style>
+</head>
+<body>
+<div id="loader"><div><div class="lm"><span class="mk">D</span><span>DREAM | INTERIORS</span></div><div class="bar"><i></i></div></div></div>
+
+<nav id="nav"><div class="wrap">
+  <a href="#top" class="logo"><span class="mk">D</span><span><b>DREAM <em>|</em> INTERIORS</b><small>New way to design your spaces</small></span></a>
+  <div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#process">Process</a><a href="#visit">Showroom</a></div>
+  <a class="btn gold" href="tel:+918290231102" aria-label="Call now"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span class="t">Call Now</span></a>
+</div></nav>
+
+<section class="walk" id="top">
+ <div class="stage" id="wstage">
+  <div class="rooms" id="rooms"></div>
+  <div class="bloom" id="bloom"></div><div class="dip" id="dip"></div>
+  <div class="vig"></div><div class="grain"></div>
+  <div class="frame"><i class="h"></i><i class="l"></i><i class="r"></i><i class="b"></i></div>
+  <div class="hs" id="hs"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="2.6"/></svg><span class="tip" id="hsTip"></span></div>
+  <div class="copy" id="copy"><div class="wrap">
+    <div class="eyebrow fade">Real Plast Jaipur · Chomu</div>
+    <h1><span class="ln"><span>New way to</span></span><span class="ln"><span><i>design</i> your</span></span><span class="ln"><span>spaces.</span></span></h1>
+    <div class="sub">
+      <p class="fade d1">Look around rooms we have designed and installed: UPVC modular kitchens, wardrobes, TV panels and mandir units across Jaipur.</p>
+      <div class="ctas fade d2"><a class="btn gold" href="#visit">Get a Free Quote →</a><a class="btn ghost" href="#work">View Our Work</a></div>
+    </div>
+  </div></div>
+  <div class="rt" id="rt"><div class="wrap"><small id="rtn">01 / 07 · Real project</small><b id="rtb">Living Room</b></div></div>
+  <div class="hint" id="hint">Drag or scroll · 360° view</div>
+  <div class="bar">
+    <div class="nm"><span id="wname">Living Room</span><span class="chip"></span></div>
+    <div class="pg"><i id="wpg"></i></div>
+    <div class="rgt"><span id="wcount">01 / 07</span>
+      <div class="wb" id="wplay" title="Play / Pause"><svg viewBox="0 0 12 12" id="wpi"><path d="M3 2v8M9 2v8"/></svg></div>
+      <div class="wb ac" id="wfs" title="Fullscreen"><svg viewBox="0 0 12 12"><path d="M1 4V1h3M8 1h3v3M11 8v3H8M4 11H1V8"/></svg></div></div>
+  </div>
+ </div>
+</section>
+
+<div class="band"><div class="tr">
+  <span>Modular Kitchens</span><span>Wardrobes</span><span>TV Panels</span><span>UPVC Mandir</span><span>Bedroom Interiors</span><span>Office Interiors</span><span>Wall Panels</span>
+  <span>Modular Kitchens</span><span>Wardrobes</span><span>TV Panels</span><span>UPVC Mandir</span><span>Bedroom Interiors</span><span>Office Interiors</span><span>Wall Panels</span>
+</div></div>
+
+<section class="intro" id="about"><div class="wrap g">
+  <div class="pic rv">
+    <div class="a clip"><img src="tv-marble.webp" alt="Backlit marble TV wall by Dream Interiors" loading="lazy"></div>
+    <div class="b clip"><img src="mandir-sm.webp" alt="UPVC mandir with Radhe Radhe cut work" loading="lazy"></div>
+  </div>
+  <div>
+    <div class="eyebrow rv">About Dream Interiors</div>
+    <h2 class="rv" style="margin-top:18px">Homes that feel <i>finished.</i></h2>
+    <p class="lead rv">From a single TV wall to a complete house, we plan, make and fit every piece, with warm light built right in.</p>
+    <p class="rv">Dream Interiors (Bansa Wale) works with Real Plast Jaipur to bring UPVC modular furniture to Chomu and Jaipur. Visit our showroom on Jaipur Road to see the finishes in person.</p>
+    <div class="feat rv">
+      <div><b>Water resistant</b><span>Made for kitchens and wet areas</span></div>
+      <div><b>Termite free</b><span>No wood, no termite worry</span></div>
+      <div><b>Easy to clean</b><span>Gloss, matte and wood finishes</span></div>
+      <div><b>Custom made</b><span>Measured for your space</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="svc" id="services"><div class="wrap">
+  <div class="hd"><div><div class="eyebrow rv">What we do</div><h2 class="rv" style="margin-top:18px">Our <i>services</i></h2></div><p class="rv">Everything is made to measure. Choose a finish, and we take care of design, fitting and lighting.</p></div>
+  <div class="list">
+    <div class="row rv" data-img="kitchen-beige-sm.webp" data-f="kitchen"><span class="n">01</span><div class="th"><img src="kitchen-beige-sm.webp" alt="" loading="lazy"></div><h3>Modular Kitchen</h3><p>L-shape, parallel and straight kitchens with glass shutters and under-cabinet lights.</p><span class="ar">→</span></div>
+    <div class="row rv" data-img="wardrobe-wood-sm.webp" data-f="wardrobe"><span class="n">02</span><div class="th"><img src="wardrobe-wood-sm.webp" alt="" loading="lazy"></div><h3>Wardrobes</h3><p>Floor-to-ceiling hinged and sliding wardrobes in gloss, matte and wood grain.</p><span class="ar">→</span></div>
+    <div class="row rv" data-img="tv-arch-sm.webp" data-f="tv"><span class="n">03</span><div class="th"><img src="tv-arch-sm.webp" alt="" loading="lazy"></div><h3>TV Panels</h3><p>Fluted and marble-finish TV walls with profile lights and display units.</p><span class="ar">→</span></div>
+    <div class="row rv" data-img="mandir-sm.webp" data-f="mandir"><span class="n">04</span><div class="th"><img src="mandir-sm.webp" alt="" loading="lazy"></div><h3>UPVC Mandir</h3><p>Backlit mandir units with custom cut designs, shelves and storage.</p><span class="ar">→</span></div>
+    <div class="row rv" data-img="bedroom-led-sm.webp" data-f="bedroom"><span class="n">05</span><div class="th"><img src="bedroom-led-sm.webp" alt="" loading="lazy"></div><h3>Bedroom Interiors</h3><p>Beds, headboard walls, dressers and ceiling lights as one complete look.</p><span class="ar">→</span></div>
+    <div class="row rv" data-img="office-sm.webp" data-f="office"><span class="n">06</span><div class="th"><img src="office-sm.webp" alt="" loading="lazy"></div><h3>Office Interiors</h3><p>Fluted wall panels, ceilings and workstations for cabins and showrooms.</p><span class="ar">→</span></div>
+  </div>
+</div></section>
+<div class="peek" id="peek"></div>
+
+<section class="show" id="showcase" style="height:300vh">
+  <div class="pin">
+    <div class="ttl wrap"><div class="eyebrow">Featured projects</div><h2 style="margin-top:14px">Light, <i>built in.</i></h2></div>
+    <div class="track" id="track">
+      <div class="card"><img src="tv-fluted-sm.webp" alt="Fluted TV wall"><div class="cap"><b>Fluted TV Wall</b><span>Living</span></div></div>
+      <div class="card"><img src="wardrobe-wood-sm.webp" alt="Walnut wardrobe"><div class="cap"><b>Walnut Wardrobe</b><span>Bedroom</span></div></div>
+      <div class="card"><img src="mirror-dresser-sm.webp" alt="Mirror dresser"><div class="cap"><b>Mirror Dresser</b><span>Dressing</span></div></div>
+      <div class="card"><img src="tv-marble-sm.webp" alt="Marble glow panel"><div class="cap"><b>Marble Glow Panel</b><span>Living</span></div></div>
+      <div class="card"><img src="partition-sm.webp" alt="Partition and ceiling"><div class="cap"><b>Partition & Ceiling</b><span>Dining</span></div></div>
+      <div class="card"><img src="pooja-unit-sm.webp" alt="Pooja unit"><div class="cap"><b>Pooja Unit</b><span>Mandir</span></div></div>
+    </div>
+    <div class="prog"><i id="prog"></i></div>
+  </div>
+</section>
+
+<section class="gal" id="work"><div class="wrap">
+  <div class="hd" style="margin-bottom:40px"><div><div class="eyebrow rv">Portfolio</div><h2 class="rv" style="margin-top:18px">Our <i>work</i></h2></div>
+    <div class="tabs rv" id="tabs"><button class="on" data-f="all">All</button><button data-f="kitchen">Kitchen</button><button data-f="wardrobe">Wardrobe</button><button data-f="tv">TV Panel</button><button data-f="mandir">Mandir</button><button data-f="bedroom">Bedroom</button><button data-f="office">Office</button></div></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section class="split"><div class="bgp" id="bgp"></div><div class="wrap in">
+  <div class="eyebrow rv">Bedroom interiors</div>
+  <h2 class="rv" style="margin-top:18px">Rooms that <i>glow</i> at night.</h2>
+  <p class="rv">Floating beds with LED base lights, fluted wall panels and soft cove ceilings. We plan the lighting with the furniture, so every room feels warm.</p>
+  <a class="btn gold rv" href="#visit">Plan My Bedroom →</a>
+</div></section>
+
+<section class="why"><div class="wrap">
+  <div class="eyebrow rv">Why UPVC</div><h2 class="rv" style="margin-top:18px">Made to <i>last.</i></h2>
+  <div class="g">
+    <div class="c rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2.7s7 7.3 7 12.3a7 7 0 0 1-14 0c0-5 7-12.3 7-12.3z"/></svg></div><h4>Water resistant</h4><p>Does not swell or rot with water. Ideal for kitchens and wet areas.</p></div>
+    <div class="c rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h4>Termite free</h4><p>No wood inside, so termites and borers are not a problem.</p></div>
+    <div class="c rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.5"/></svg></div><h4>Built-in lighting</h4><p>Profile lights, spot lights and cove LEDs planned with every design.</p></div>
+    <div class="c rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><h4>Many finishes</h4><p>High gloss, matte, marble and wood-grain looks in many colours.</p></div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <div class="eyebrow rv">How it works</div><h2 class="rv" style="margin-top:18px">Simple <i>process</i></h2>
+  <div class="steps">
+    <div class="rv"><h4>Visit or call</h4><p>Come to the showroom or call us. Tell us which room you want to do.</p></div>
+    <div class="rv"><h4>Site measurement</h4><p>We visit your home, take measurements and understand your needs.</p></div>
+    <div class="rv"><h4>Design & finish</h4><p>Pick the layout, colours and lights. You get a clear quote.</p></div>
+    <div class="rv"><h4>Make & install</h4><p>Our team makes and fits everything, clean and on time.</p></div>
+  </div>
+</div></section>
+
+<section class="visit" id="visit" style="padding-top:0"><div class="wrap">
+  <div class="eyebrow rv">Showroom</div><h2 class="rv" style="margin:18px 0 50px">Visit <i>us</i></h2>
+  <div class="g">
+    <div class="vcard rv">
+      <div class="it"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><div><small>Address</small><a href="https://www.google.com/maps/search/?api=1&query=Dream+Interiors+Opp+Le+Grand+Hotel+Jaipur+Road+Chomu" target="_blank" rel="noopener">Opp. Le Grand Hotel, Jaipur Road, Chomu, Jaipur</a></div></div>
+      <div class="it"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><div><small>Call</small><a href="tel:+918290231102">82902 31102</a> &nbsp;·&nbsp; <a href="tel:+917568589895">75685 89895</a></div></div>
+      <div class="it" style="border:0"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/></svg><div><small>Instagram · YouTube</small><a href="https://instagram.com/dreaminteriors.in" target="_blank" rel="noopener">@dreaminteriors.in</a> &nbsp;·&nbsp; <a href="https://youtube.com/@dreaminteriorsahu" target="_blank" rel="noopener">@dreaminteriorsahu</a></div></div>
+      <form class="form" id="qf">
+        <div class="two"><input name="n" placeholder="Your name" required><input name="p" placeholder="City / area" required></div>
+        <select name="s"><option>Modular Kitchen</option><option>Wardrobe</option><option>TV Panel</option><option>UPVC Mandir</option><option>Bedroom Interior</option><option>Office Interior</option><option>Full House</option></select>
+        <textarea name="m" rows="3" placeholder="Tell us about your space (optional)"></textarea>
+        <button class="btn gold" type="submit" style="justify-content:center;border:0;cursor:pointer">Send on WhatsApp →</button>
+        <div class="note">Your details go straight to our WhatsApp. Nothing is stored on this website.</div>
+      </form>
+    </div>
+    <div class="mapimg clip"><img src="kitchen-grey.webp" alt="Modular kitchen by Dream Interiors" loading="lazy"><div class="tag"><b>See the finishes in person at our Chomu showroom.</b><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Dream+Interiors+Opp+Le+Grand+Hotel+Jaipur+Road+Chomu" target="_blank" rel="noopener">Get Directions ↗</a></div></div>
+  </div>
+</div></section>
+
+<section class="cta"><div class="glow"></div><div class="wrap">
+  <div class="eyebrow rv">Start your project</div>
+  <h2 class="rv">Your dream space, <i>made real.</i></h2>
+  <div class="ctas rv"><a class="btn gold" href="tel:+918290231102">Call 82902 31102</a><a class="btn ghost" href="https://wa.me/918290231102?text=Hi%20Dream%20Interiors%2C%20I%20want%20a%20quote" target="_blank" rel="noopener">WhatsApp Us</a></div>
+</div></section>
+
+<footer><div class="wrap">
+  <div><a href="#top" class="logo"><span class="mk">D</span><span><b>DREAM <em>|</em> INTERIORS</b><small>New way to design your spaces</small></span></a><p style="margin-top:16px;max-width:340px">UPVC modular interiors by Dream Interiors (Bansa Wale) · Real Plast Jaipur. Opp. Le Grand Hotel, Jaipur Road, Chomu.</p></div>
+  <div class="so"><a href="https://instagram.com/dreaminteriors.in" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a><a href="https://youtube.com/@dreaminteriorsahu" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .6 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-4.8 31 31 0 0 0-.4-4.8zM9.7 15V9l5.8 3-5.8 3z"/></svg></a><a href="tel:+918290231102" aria-label="Call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a></div>
+  <div class="pv">Website preview designed by <a href="https://webforyou-studio.netlify.app" style="color:var(--amb2)">WebForYou</a> for Dream Interiors. All project photos © Dream Interiors.</div>
+</div></footer>
+
+<a class="fab" id="fab" href="https://wa.me/918290231102?text=Hi%20Dream%20Interiors%2C%20I%20want%20a%20quote" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM12 0a12 12 0 0 0-10.3 18L0 24l6.2-1.6A12 12 0 1 0 12 0z"/></svg></a>
+
+<div id="lb"><button class="x" aria-label="Close">✕</button><button class="p" aria-label="Previous">‹</button><img alt=""><button class="nx" aria-label="Next">›</button><div class="c"></div></div>
+
+<script>
+const G=[
+ ['tv-fluted','tv','Fluted TV wall'],['kitchen-beige','kitchen','L-shape kitchen'],['mirror-dresser','wardrobe','Mirror dresser'],
+ ['mandir','mandir','UPVC mandir'],['bedroom-led','bedroom','Floating LED bed'],['office','office','Office cabin'],
+ ['tv-arch','tv','Arch TV panel'],['wardrobe-gloss','wardrobe','Gloss wardrobe'],['kitchen-grey','kitchen','Parallel kitchen'],
+ ['pooja-unit','mandir','Pooja unit'],['wardrobe-wood','wardrobe','Walnut wardrobe'],['tv-marble','tv','Marble glow panel'],
+ ['partition','bedroom','Partition & ceiling'],['ceiling-fan','bedroom','Cove ceiling'],['tv-grey','tv','Fluted grey wall'],
+ ['bedroom','bedroom','Bedroom set'],['wardrobe-sliding','wardrobe','Sliding wardrobe'],['office-2','office','Office desk'],['pooja-room','mandir','Pooja room']];
+const grid=document.getElementById('grid');
+grid.innerHTML=G.map((g,i)=>`<figure class="rv" data-c="${g[1]}" data-i="${i}"><img src="${g[0]}-sm.webp" alt="${g[2]} by Dream Interiors" loading="lazy"><figcaption>${g[2]}</figcaption></figure>`).join('');
+
+function ready(){document.getElementById('loader').classList.add('done');document.body.classList.add('ready')}
+addEventListener('load',()=>setTimeout(ready,700));setTimeout(ready,3000);
+
+/* ===== 360 showroom loop (hero) ===== */
+const ROOMS=[
+ {src:'tv-fluted',name:'Living Room'},{src:'bedroom-led',name:'Master Bedroom'},{src:'mirror-dresser',name:'Dressing Area'},
+ {src:'kitchen-beige',name:'Modular Kitchen'},{src:'mandir',name:'Pooja Room'},{src:'office',name:'Office Cabin'},
+ {src:'wardrobe-wood',name:'Walnut Wardrobe'},{src:'tv-arch',name:'TV Panel'}];
+const RN=ROOMS.length,STEP=360/RN,DWELL=4.2,TURN=1.8,walk=document.getElementById('top'),wst=document.getElementById('wstage'),roomsEl=document.getElementById('rooms');
+roomsEl.className='rooms r3';const ring=document.createElement('div');ring.className='ring';roomsEl.appendChild(ring);
+const pns=ROOMS.map((r,i)=>{const d=document.createElement('div');d.className='pn';d.innerHTML=`<img src="${r.src}.webp" alt="${r.name} by Dream Interiors" decoding="async">`;ring.appendChild(d);return d});
+const dip=document.getElementById('dip'),bloom=document.getElementById('bloom'),copy=document.getElementById('copy'),rt=document.getElementById('rt'),rtb=document.getElementById('rtb'),rtn=document.getElementById('rtn'),hint=document.getElementById('hint');
+const wname=document.getElementById('wname'),wpg=document.getElementById('wpg'),wcount=document.getElementById('wcount');
+document.getElementById('hs').style.display='none';
+let P=800,u=0,dragA=0,dragV=0,wplaying=true,lastScrollT=-9,lastRoom=-1,mx=0,my=0,smx=0,smy=0,lt=performance.now(),dragging=false,lx=0;
+const pad=n=>String(n).padStart(2,'0');
+function layout(){const W=wst.clientWidth,H=wst.clientHeight,wide=W>H;
+ P=W*(wide?.74:1.02);const R=W*1.3,pw=2*R*Math.tan(Math.PI/RN)+2,ph=H*1.18*R/P;
+ roomsEl.style.perspective=P+'px';
+ pns.forEach((d,i)=>{d.style.width=pw+'px';d.style.height=ph+'px';d.style.left=-pw/2+'px';d.style.top=-ph/2+'px';d.style.transform=`rotateY(${i*STEP}deg) translateZ(${-R}px)`})}
+layout();addEventListener('resize',layout);
+function wprog(){const r=walk.getBoundingClientRect();return Math.min(1,Math.max(0,-r.top/(walk.offsetHeight-innerHeight)))}
+addEventListener('scroll',()=>{lastScrollT=performance.now()/1000},{passive:true});
+addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+wst.addEventListener('pointerdown',e=>{if(e.target.closest('a,button,.wb'))return;dragging=true;lx=e.clientX;wst.classList.add('grab')});
+addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-lx;lx=e.clientX;dragA+=dx*.18;dragV=dx*.18;lastScrollT=performance.now()/1000});
+addEventListener('pointerup',()=>{dragging=false;wst.classList.remove('grab')});
+document.getElementById('wplay').onclick=()=>{wplaying=!wplaying;document.getElementById('wpi').innerHTML=wplaying?'<path d="M3 2v8M9 2v8"/>':'<path d="M3 2l7 4-7 4z"/>'};
+document.getElementById('wfs').onclick=()=>{try{document.fullscreenElement?document.exitFullscreen():wst.requestFullscreen?.()?.catch(()=>{})}catch(e){}};
+const eio=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+let disp=0;
+function wtick(now){const dt=Math.min(.05,(now-lt)/1000);lt=now;const T=now/1000;
+ const p=wprog(),inView=walk.getBoundingClientRect().bottom>0;
+ if(wplaying&&!dragging&&T-lastScrollT>1)u+=dt/(DWELL+TURN);
+ if(!dragging){dragA+=dragV;dragV*=.92}
+ const k=Math.floor(u),fr=u-k,cyc=DWELL/(DWELL+TURN),te=fr<cyc?0:eio((fr-cyc)/(1-cyc));
+ const target=-(k+te)*STEP-p*360+dragA;disp+=(target-disp)*Math.min(1,dt*6);
+ if(inView){
+  smx+=(mx-smx)*Math.min(1,dt*3);smy+=(my-smy)*Math.min(1,dt*3);
+  const tilt=-smy*4+Math.sin(T*.6)*.6,pan=smx*5;
+  ring.style.transform=`translateZ(${P}px) rotateX(${tilt}deg) rotateY(${disp+pan}deg)`;
+  const turning=Math.abs(target-disp)+(fr>=cyc&&fr<1?Math.sin((fr-cyc)/(1-cyc)*Math.PI):0);
+  dip.style.opacity=Math.min(.18,turning*.12).toFixed(3);
+  bloom.style.transform=`translate(${Math.sin(T*.3)*30}px,${Math.cos(T*.25)*20}px)`;bloom.style.opacity=.35+Math.sin(T*.8)*.12;
+  const shown=((Math.round(-(disp)/STEP)%RN)+RN)%RN;
+  if(shown!==lastRoom){lastRoom=shown;wname.style.opacity=0;rtb.classList.add('sw');setTimeout(()=>{wname.textContent=ROOMS[shown].name;wname.style.opacity=1;rtb.textContent=ROOMS[shown].name;rtn.textContent=pad(shown+1)+' / '+pad(RN)+' · Real project · 360° view';rtb.classList.remove('sw')},300);wcount.textContent=pad(shown+1)+' / '+pad(RN)}
+  wpg.style.width=((((-disp/360)%1)+1)%1*100).toFixed(2)+'%';
+  const c=Math.min(1,Math.max(0,p/.12));copy.style.opacity=1-c;copy.style.transform=`translateY(${-c*30}px)`;copy.style.pointerEvents=c>.5?'none':'';
+  rt.style.opacity=Math.min(1,Math.max(0,(p-.1)/.08))*(1-Math.min(1,Math.max(0,(p-.92)/.08)));hint.style.opacity=p>.03?0:1;
+ }
+ requestAnimationFrame(wtick)}
+requestAnimationFrame(wtick);
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -5% 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll(':scope > .clip, :scope .clip').forEach(c=>c.classList.add('in'));io2.unobserve(e.target)}}),{threshold:.1});
+new Set([...document.querySelectorAll('.clip')].map(c=>c.parentElement)).forEach(p=>io2.observe(p));
+grid.querySelectorAll('figure').forEach((f,i)=>f.style.transitionDelay=(i%3)*.08+'s');
+
+const nav=document.getElementById('nav'),fab=document.getElementById('fab'),bgp=document.getElementById('bgp'),show=document.getElementById('showcase'),track=document.getElementById('track'),prog=document.getElementById('prog'),split=bgp.parentElement;
+function onScroll(){const y=scrollY,vh=innerHeight;
+ nav.classList.toggle('s',y>40);fab.classList.toggle('on',y>vh*.6);
+ const r=split.getBoundingClientRect();if(r.bottom>0&&r.top<vh)bgp.style.transform=`translateY(${(r.top/vh)*-12}%)`;
+ const s=show.getBoundingClientRect(),tot=show.offsetHeight-vh,p=Math.min(1,Math.max(0,-s.top/tot));
+ const max=Math.max(0,track.scrollWidth-innerWidth+Math.max(20,(innerWidth-1240)/2));track.style.transform=`translateX(${-p*max}px)`;prog.style.transform=`scaleX(${p})`;}
+addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);addEventListener('load',onScroll);onScroll();
+
+const peek=document.getElementById('peek'),rows=[...document.querySelectorAll('.row')];
+peek.innerHTML=rows.map(r=>`<img src="${r.dataset.img}" alt="">`).join('');const pi=[...peek.querySelectorAll('img')];
+rows.forEach((r,i)=>{r.addEventListener('mouseenter',()=>{peek.classList.add('on');pi.forEach((im,j)=>im.classList.toggle('on',j===i))});r.addEventListener('mouseleave',()=>peek.classList.remove('on'));
+ r.addEventListener('click',()=>{document.querySelector(`#tabs [data-f="${r.dataset.f}"]`).click();document.getElementById('work').scrollIntoView()})});
+let px=0,py=0,tx=0,ty=0;addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY});(function lp(){px+=(tx-px)*.15;py+=(ty-py)*.15;peek.style.left=px+'px';peek.style.top=py+'px';requestAnimationFrame(lp)})();
+
+document.getElementById('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('on',x===b));const cur=b.dataset.f;
+ grid.querySelectorAll('figure').forEach(f=>{const sh=cur==='all'||f.dataset.c===cur;f.classList.toggle('hide',!sh);if(sh){f.classList.remove('in');requestAnimationFrame(()=>requestAnimationFrame(()=>f.classList.add('in')))}})});
+
+const lb=document.getElementById('lb'),li=lb.querySelector('img'),lc=lb.querySelector('.c');let idx=0;
+const vis=()=>[...grid.querySelectorAll('figure:not(.hide)')].map(f=>+f.dataset.i);
+function open(i){idx=i;li.src=''+G[i][0]+'.webp';lc.textContent=G[i][2];lb.classList.add('on')}
+function step(d){const v=vis(),k=v.indexOf(idx);open(v[(k+d+v.length)%v.length])}
+grid.addEventListener('click',e=>{const f=e.target.closest('figure');if(f)open(+f.dataset.i)});
+lb.querySelector('.x').onclick=()=>lb.classList.remove('on');lb.querySelector('.p').onclick=()=>step(-1);lb.querySelector('.nx').onclick=()=>step(1);
+lb.addEventListener('click',e=>{if(e.target===lb)lb.classList.remove('on')});
+addEventListener('keydown',e=>{if(!lb.classList.contains('on'))return;if(e.key==='Escape')lb.classList.remove('on');if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1)});
+
+document.getElementById('qf').addEventListener('submit',e=>{e.preventDefault();const f=e.target;
+ const t=['Hi Dream Interiors,','Name: '+f.n.value,'Area: '+f.p.value,'Work: '+f.s.value,f.m.value].filter(Boolean).join('\n');
+ window.open('https://wa.me/918290231102?text='+encodeURIComponent(t),'_blank')});
+</script>
+</body>
+</html>
